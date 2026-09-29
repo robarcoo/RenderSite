@@ -141,6 +141,6 @@ app.get("/dashboard", (_req, res) => {
 });
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(\`Сервер запущен на порту \${PORT}\`);
+  console.log("Сервер запущен на порту " + PORT);
   console.log(\`Панель: http://localhost:\${PORT}/dashboard\`);
 });
